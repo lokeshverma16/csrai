@@ -1,0 +1,4252 @@
+{
+  "recommendation_metrics": {
+    "total_customers": 200,
+    "total_recommendations": 600,
+    "avg_recommendations_per_customer": 3.0,
+    "avg_confidence_score": 0.5999999999999999,
+    "success_rate": 1.0
+  },
+  "segment_analysis": {
+    "unknown": {
+      "count": 600,
+      "total_confidence": 360.0000000000022,
+      "total_revenue_potential": 368857.9999999997,
+      "avg_confidence": 0.6000000000000036,
+      "avg_price": 614.7633333333329
+    }
+  },
+  "business_metrics": {
+    "total_potential_revenue": 59017.28000000002,
+    "baseline_revenue": 10000,
+    "revenue_lift_percent": 490.1728000000002,
+    "avg_revenue_per_customer": 295.0864000000001,
+    "num_customers_analyzed": 200,
+    "conversion_estimates": [
+      {
+        "customer_id": "CUST_00001",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00001",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00001",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00002",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00002",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00002",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00003",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00003",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00003",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00004",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00004",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00004",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00005",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00005",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00005",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00006",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00006",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00006",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00007",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00007",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00007",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00008",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00008",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00008",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00009",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00009",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00009",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00010",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00010",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00010",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00011",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00011",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00011",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00012",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00012",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00012",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00013",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00013",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00013",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00014",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00014",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00014",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00015",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00015",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00015",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00016",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00016",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00016",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00017",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00017",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00017",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00018",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00018",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00018",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00019",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00019",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00019",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00020",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00020",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00020",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00021",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00021",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00021",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00022",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00022",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00022",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00023",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00023",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00023",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00024",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00024",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00024",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00025",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00025",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00025",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00026",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00026",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00026",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00027",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00027",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00027",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00028",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00028",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00028",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00029",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00029",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00029",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00030",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00030",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00030",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00031",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00031",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00031",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00032",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00032",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00032",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00033",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00033",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00033",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00034",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00034",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00034",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00035",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00035",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00035",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00036",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00036",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00036",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00037",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00037",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00037",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00038",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00038",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00038",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00039",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00039",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00039",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00040",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00040",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00040",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00041",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00041",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00041",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00042",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00042",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00042",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00043",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00043",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00043",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00044",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00044",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00044",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00045",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00045",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00045",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00046",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00046",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00046",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00047",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00047",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00047",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00048",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00048",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00048",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00049",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00049",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00049",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00050",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00050",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00050",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00051",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00051",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00051",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00052",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00052",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00052",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00053",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00053",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00053",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00054",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00054",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00054",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00055",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00055",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00055",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00056",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00056",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00056",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00057",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00057",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00057",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00058",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00058",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00058",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00059",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00059",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00059",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00060",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00060",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00060",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00061",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00061",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00061",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00062",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00062",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00062",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00063",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00063",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00063",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00064",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00064",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00064",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00065",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00065",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00065",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00066",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00066",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00066",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00067",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00067",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00067",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00068",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00068",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00068",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00069",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00069",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00069",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00070",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00070",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00070",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00071",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00071",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00071",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00072",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00072",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00072",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00073",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00073",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00073",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00074",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00074",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00074",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00075",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00075",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00075",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00076",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00076",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00076",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00077",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00077",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00077",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00078",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00078",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00078",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00079",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00079",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00079",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00080",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00080",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00080",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00081",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00081",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00081",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00082",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00082",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00082",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00083",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00083",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00083",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00084",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00084",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00084",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00085",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00085",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00085",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00086",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00086",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00086",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00087",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00087",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00087",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00088",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00088",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00088",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00089",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00089",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00089",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00090",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00090",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00090",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00091",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00091",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00091",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00092",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00092",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00092",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00093",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00093",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00093",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00094",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00094",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00094",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00095",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00095",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00095",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00096",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00096",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00096",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00097",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00097",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00097",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00098",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00098",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00098",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00099",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00099",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00099",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00100",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00100",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00100",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00101",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00101",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00101",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00102",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00102",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00102",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00103",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00103",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00103",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00104",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00104",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00104",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00105",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00105",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00105",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00106",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00106",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00106",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00107",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00107",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00107",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00108",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00108",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00108",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00109",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00109",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00109",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00110",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00110",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00110",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00111",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00111",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00111",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00112",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00112",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00112",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00113",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00113",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00113",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00114",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00114",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00114",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00115",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00115",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00115",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00116",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00116",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00116",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00117",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00117",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00117",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00118",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00118",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00118",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00119",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00119",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00119",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00120",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00120",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00120",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00121",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00121",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00121",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00122",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00122",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00122",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00123",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00123",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00123",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00124",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00124",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00124",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00125",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00125",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00125",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00126",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00126",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00126",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00127",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00127",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00127",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00128",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00128",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00128",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00129",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00129",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00129",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00130",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00130",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00130",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00131",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00131",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00131",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00132",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00132",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00132",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00133",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00133",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00133",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00134",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00134",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00134",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00135",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00135",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00135",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00136",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00136",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00136",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00137",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00137",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00137",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00138",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00138",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00138",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00139",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00139",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00139",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00140",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00140",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00140",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00141",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00141",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00141",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00142",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00142",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00142",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00143",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00143",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00143",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00144",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00144",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00144",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00145",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00145",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00145",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00146",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00146",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00146",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00147",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00147",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00147",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00148",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00148",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00148",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00149",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00149",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00149",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00150",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00150",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00150",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00151",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00151",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00151",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00152",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00152",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00152",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00153",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00153",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00153",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00154",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00154",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00154",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00155",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00155",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00155",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00156",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00156",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00156",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00157",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00157",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00157",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00158",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00158",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00158",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00159",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00159",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00159",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00160",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00160",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00160",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00161",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00161",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00161",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00162",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00162",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00162",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00163",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00163",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00163",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00164",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00164",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00164",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00165",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00165",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00165",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00166",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00166",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00166",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00167",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00167",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00167",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00168",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00168",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00168",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00169",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00169",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00169",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00170",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00170",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00170",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00171",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00171",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00171",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00172",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00172",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00172",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00173",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00173",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00173",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00174",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00174",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00174",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00175",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00175",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00175",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00176",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00176",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00176",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00177",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00177",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00177",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00178",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00178",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00178",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00179",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00179",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00179",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00180",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00180",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00180",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00181",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00181",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00181",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00182",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00182",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00182",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00183",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00183",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00183",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00184",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00184",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00184",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00185",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00185",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00185",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00186",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00186",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00186",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00187",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00187",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00187",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00188",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00188",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00188",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00189",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00189",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00189",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00190",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00190",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00190",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00191",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00191",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00191",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00192",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00192",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00192",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00193",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00193",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00193",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00194",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00194",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00194",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00195",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00195",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00195",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00196",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00196",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00196",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00197",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00197",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00197",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00198",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00198",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00198",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00199",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00199",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00199",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      },
+      {
+        "customer_id": "CUST_00200",
+        "product_id": "PROD_00370",
+        "price": 789.23,
+        "conversion_probability": 0.16,
+        "expected_revenue": 126.27680000000001
+      },
+      {
+        "customer_id": "CUST_00200",
+        "product_id": "PROD_00181",
+        "price": 421.24,
+        "conversion_probability": 0.16,
+        "expected_revenue": 67.39840000000001
+      },
+      {
+        "customer_id": "CUST_00200",
+        "product_id": "PROD_00209",
+        "price": 633.82,
+        "conversion_probability": 0.16,
+        "expected_revenue": 101.41120000000001
+      }
+    ]
+  },
+  "recommendation_types": {
+    "popular": 600
+  },
+  "confidence_analysis": {
+    "min_confidence": 0.6,
+    "max_confidence": 0.6,
+    "median_confidence": 0.6,
+    "high_confidence_rate": 0.0
+  },
+  "category_analysis": {
+    "Electronics": {
+      "count": 400,
+      "total_confidence": 239.99999999999844,
+      "total_price": 284610.00000000163,
+      "avg_confidence": 0.5999999999999961,
+      "avg_price": 711.5250000000041
+    },
+    "Sports": {
+      "count": 200,
+      "total_confidence": 119.99999999999957,
+      "total_price": 84248.00000000013,
+      "avg_confidence": 0.5999999999999979,
+      "avg_price": 421.24000000000063
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "CUST_00001": [
+    {
+      "rank": 1,
+      "product_id": "PROD_00370",
+      "product_name": "Elite Wireless Speaker",
+      "category": "Electronics",
+      "price": 789.23,
+      "confidence_score": 0.6,
+      "explanation": "Popular choice \u2022 Frequently purchased",
+      "recommendation_type": "popular",
+      "customer_segment": "unknown",
+      "journey_stage": "unknown",
+      "next_best_action": "engagement"
+    },
+    {
+      "rank": 2,
+      "product_id": "PROD_00181",
+      "product_name": "Premium Water Bottle",
+      "category": "Sports",
+      "price": 421.24,
+      "confidence_score": 0.6,
+      "explanation": "Popular choice \u2022 Frequently purchased",
+      "recommendation_type": "popular",
+      "customer_segment": "unknown",
+      "journey_stage": "unknown",
+      "next_best_action": "engagement"
+    },
+    {
+      "rank": 3,
+      "product_id": "PROD_00209",
+      "product_name": "Elite Headphones",
+      "category": "Electronics",
+      "price": 633.82,
+      "confidence_score": 0.6,
+      "explanation": "Popular choice \u2022 Frequently purchased",
+      "recommendation_type": "popular",
+      "customer_segment": "unknown",
+      "journey_stage": "unknown",
+      "next_best_action": "engagement"
+    }
+  ],
+  "CUST_00002": [
+    {
+      "rank": 1,
+      "product_id": "PROD_00370",
+      "product_name": "Elite Wireless Speaker",
+      "category": "Electronics",
+      "price": 789.23,
+      "confidence_score": 0.6,
+      "explanation": "Popular choice \u2022 Frequently purchased",
+      "recommendation_type": "popular",
+      "customer_segment": "unknown",
+      "journey_stage": "unknown",
+      "next_best_action": "engagement"
+    },
+    {
+      "rank": 2,
+      "product_id": "PROD_00181",
+      "product_name": "Premium Water Bottle",
+      "category": "Sports",
+      "price": 421.24,
+      "confidence_score": 0.6,
+      "explanation": "Popular choice \u2022 Frequently purchased",
+      "recommendation_type": "popular",
+      "customer_segment": "unknown",
+      "journey_stage": "unknown",
+      "next_best_action": "engagement"
+    },
+    {
+      "rank": 3,
+      "product_id": "PROD_00209",
+      "product_name": "Elite Headphones",
+      "category": "Electronics",
+      "price": 633.82,
+      "confidence_score": 0.6,
+      "explanation": "Popular choice \u2022 Frequently purchased",
+      "recommendation_type": "popular",
+      "customer_segment": "unknown",
+      "journey_stage": "unknown",
+      "next_best_action": "engagement"
+    }
+  ],
+  "CUST_00003": [
+    {
+      "rank": 1,
+      "product_id": "PROD_00370",
+      "product_name": "Elite Wireless Speaker",
+      "category": "Electronics",
+      "price": 789.23,
+      "confidence_score": 0.6,
+      "explanation": "Popular choice \u2022 Frequently purchased",
+      "recommendation_type": "popular",
+      "customer_segment": "unknown",
+      "journey_stage": "unknown",
+      "next_best_action": "engagement"
+    },
+    {
+      "rank": 2,
+      "product_id": "PROD_00181",
+      "product_name": "Premium Water Bottle",
+      "category": "Sports",
+      "price": 421.24,
+      "confidence_score": 0.6,
+      "explanation": "Popular choice \u2022 Frequently purchased",
+      "recommendation_type": "popular",
+      "customer_segment": "unknown",
+      "journey_stage": "unknown",
+      "next_best_action": "engagement"
+    },
+    {
+      "rank": 3,
+      "product_id": "PROD_00209",
+      "product_name": "Elite Headphones",
+      "category": "Electronics",
+      "price": 633.82,
+      "confidence_score": 0.6,
+      "explanation": "Popular choice \u2022 Frequently purchased",
+      "recommendation_type": "popular",
+      "customer_segment": "unknown",
+      "journey_stage": "unknown",
+      "next_best_action": "engagement"
+    }
+  ],
+  "CUST_00004": [
+    {
+      "rank": 1,
+      "product_id": "PROD_00370",
+      "product_name": "Elite Wireless Speaker",
+      "category": "Electronics",
+      "price": 789.23,
+      "confidence_score": 0.6,
+      "explanation": "Popular choice \u2022 Frequently purchased",
+      "recommendation_type": "popular",
+      "customer_segment": "unknown",
+      "journey_stage": "unknown",
+      "next_best_action": "engagement"
+    },
+    {
+      "rank": 2,
+      "product_id": "PROD_00181",
+      "product_name": "Premium Water Bottle",
+      "category": "Sports",
+      "price": 421.24,
+      "confidence_score": 0.6,
+      "explanation": "Popular choice \u2022 Frequently purchased",
+      "recommendation_type": "popular",
+      "customer_segment": "unknown",
+      "journey_stage": "unknown",
+      "next_best_action": "engagement"
+    },
+    {
+      "rank": 3,
+      "product_id": "PROD_00209",
+      "product_name": "Elite Headphones",
+      "category": "Electronics",
+      "price": 633.82,
+      "confidence_score": 0.6,
+      "explanation": "Popular choice \u2022 Frequently purchased",
+      "recommendation_type": "popular",
+      "customer_segment": "unknown",
+      "journey_stage": "unknown",
+      "next_best_action": "engagement"
+    }
+  ],
+  "CUST_00005": [
+    {
+      "rank": 1,
+      "product_id": "PROD_00370",
+      "product_name": "Elite Wireless Speaker",
+      "category": "Electronics",
+      "price": 789.23,
+      "confidence_score": 0.6,
+      "explanation": "Popular choice \u2022 Frequently purchased",
+      "recommendation_type": "popular",
+      "customer_segment": "unknown",
+      "journey_stage": "unknown",
+      "next_best_action": "engagement"
+    },
+    {
+      "rank": 2,
+      "product_id": "PROD_00181",
+      "product_name": "Premium Water Bottle",
+      "category": "Sports",
+      "price": 421.24,
+      "confidence_score": 0.6,
+      "explanation": "Popular choice \u2022 Frequently purchased",
+      "recommendation_type": "popular",
+      "customer_segment": "unknown",
+      "journey_stage": "unknown",
+      "next_best_action": "engagement"
+    },
+    {
+      "rank": 3,
+      "product_id": "PROD_00209",
+      "product_name": "Elite Headphones",
+      "category": "Electronics",
+      "price": 633.82,
+      "confidence_score": 0.6,
+      "explanation": "Popular choice \u2022 Frequently purchased",
+      "recommendation_type": "popular",
+      "customer_segment": "unknown",
+      "journey_stage": "unknown",
+      "next_best_action": "engagement"
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+product_id,product_name,category,price
+PROD_00001,Deluxe Smartphone,Electronics,1985.99
+PROD_00002,Classic Cookbook,Books,15.26
+PROD_00003,Deluxe Jeans,Clothing,96.92
+PROD_00004,Standard Yoga Mat,Sports,330.8
+PROD_00005,Premium Coffee Maker,Home,219.59
+PROD_00006,Classic Headphones,Electronics,851.49
+PROD_00007,Premium Golf Club,Sports,728.4
+PROD_00008,Deluxe Tennis Racket,Sports,578.38
+PROD_00009,Classic Fitness Tracker,Sports,496.13
+PROD_00010,Pro Candle,Home,165.05
+PROD_00011,Deluxe Tablet,Electronics,1656.39
+PROD_00012,Pro Pillow,Home,478.2
+PROD_00013,Pro Jacket,Clothing,249.94
+PROD_00014,Elite Laptop,Electronics,53.05
+PROD_00015,Pro Camera,Electronics,1290.98
+PROD_00016,Premium Football,Sports,64.63
+PROD_00017,Premium Plant Pot,Home,139.94
+PROD_00018,Standard Vacuum Cleaner,Home,43.87
+PROD_00019,Pro Poetry,Books,34.15
+PROD_00020,Deluxe Tennis Racket,Sports,557.11
+PROD_00021,Deluxe Smartphone,Electronics,273.25
+PROD_00022,Premium Sneakers,Clothing,127.47
+PROD_00023,Elite Jeans,Clothing,147.75
+PROD_00024,Deluxe Art Book,Books,24.76
+PROD_00025,Pro Biography,Books,14.84
+PROD_00026,Deluxe Cookbook,Books,26.76
+PROD_00027,Standard Science Book,Books,40.05
+PROD_00028,Deluxe Boots,Clothing,39.88
+PROD_00029,Elite Dress,Clothing,42.45
+PROD_00030,Deluxe Lamp,Home,187.06
+PROD_00031,Deluxe Tennis Racket,Sports,754.84
+PROD_00032,Classic Fiction Novel,Books,36.74
+PROD_00033,Elite Camera,Electronics,1373.41
+PROD_00034,Classic Science Book,Books,24.48
+PROD_00035,Classic Water Bottle,Sports,485.09
+PROD_00036,Deluxe Curtains,Home,19.91
+PROD_00037,Pro Bed Sheets,Home,323.51
+PROD_00038,Deluxe Jacket,Clothing,275.72
+PROD_00039,Pro Swimming Goggles,Sports,499.74
+PROD_00040,Standard Fitness Tracker,Sports,702.12
+PROD_00041,Classic Pillow,Home,366.13
+PROD_00042,Elite Boots,Clothing,53.76
+PROD_00043,Premium Smartphone,Electronics,1809.78
+PROD_00044,Deluxe Dress,Clothing,38.6
+PROD_00045,Premium Candle,Home,273.97
+PROD_00046,Standard Curtains,Home,83.94
+PROD_00047,Pro Plant Pot,Home,20.68
+PROD_00048,Deluxe Running Shoes,Sports,352.08
+PROD_00049,Pro Wireless Speaker,Electronics,625.33
+PROD_00050,Pro Science Book,Books,29.44
+PROD_00051,Elite Bed Sheets,Home,294.94
+PROD_00052,Standard Smart Watch,Electronics,135.29
+PROD_00053,Premium Boots,Clothing,54.44
+PROD_00054,Standard Technical Manual,Books,32.35
+PROD_00055,Pro Dress,Clothing,116.09
+PROD_00056,Standard Boots,Clothing,224.17
+PROD_00057,Pro Drone,Electronics,1321.97
+PROD_00058,Premium Coffee Maker,Home,425.12
+PROD_00059,Classic Self-Help,Books,37.7
+PROD_00060,Standard Headphones,Electronics,888.37
+PROD_00061,Deluxe Laptop,Electronics,1362.28
+PROD_00062,Standard Vacuum Cleaner,Home,148.56
+PROD_00063,Deluxe Dress,Clothing,105.77
+PROD_00064,Classic Plant Pot,Home,397.66
+PROD_00065,Standard Technical Manual,Books,27.86
+PROD_00066,Standard Kitchen Knife Set,Home,402.21
+PROD_00067,Elite Sneakers,Clothing,250.28
+PROD_00068,Standard Art Book,Books,44.3
+PROD_00069,Classic Vacuum Cleaner,Home,459.57
+PROD_00070,Pro Jeans,Clothing,140.68
+PROD_00071,Standard Drone,Electronics,671.79
+PROD_00072,Classic Coat,Clothing,183.02
+PROD_00073,Deluxe Laptop,Electronics,773.79
+PROD_00074,Premium Headphones,Electronics,1222.09
+PROD_00075,Premium Camera,Electronics,1425.89
+PROD_00076,Pro Tennis Racket,Sports,558.51
+PROD_00077,Standard Kitchen Knife Set,Home,196.66
+PROD_00078,Standard Coat,Clothing,66.72
+PROD_00079,Elite Kitchen Knife Set,Home,223.81
+PROD_00080,Premium Kitchen Knife Set,Home,84.16
+PROD_00081,Pro Gaming Console,Electronics,1785.69
+PROD_00082,Elite Curtains,Home,182.75
+PROD_00083,Premium Laptop,Electronics,351.2
+PROD_00084,Premium Pillow,Home,27.34
+PROD_00085,Classic Jacket,Clothing,200.83
+PROD_00086,Classic Bicycle,Sports,518.6
+PROD_00087,Pro Bed Sheets,Home,180.19
+PROD_00088,Premium Kitchen Knife Set,Home,49.78
+PROD_00089,Premium Plant Pot,Home,213.67
+PROD_00090,Premium Wireless Speaker,Electronics,656.87
+PROD_00091,Classic Headphones,Electronics,1370.39
+PROD_00092,Elite Storage Box,Home,308.8
+PROD_00093,Premium Shorts,Clothing,122.09
+PROD_00094,Premium Shorts,Clothing,81.01
+PROD_00095,Elite Lamp,Home,494.2
+PROD_00096,Deluxe History Book,Books,28.16
+PROD_00097,Classic Bicycle,Sports,558.41
+PROD_00098,Classic Sneakers,Clothing,59.35
+PROD_00099,Deluxe Drone,Electronics,996.9
+PROD_00100,Deluxe Running Shoes,Sports,46.34
+PROD_00101,Premium Fiction Novel,Books,30.22
+PROD_00102,Standard Bicycle,Sports,772.11
+PROD_00103,Premium Dumbbells,Sports,322.76
+PROD_00104,Classic Yoga Mat,Sports,55.22
+PROD_00105,Premium Drone,Electronics,110.36
+PROD_00106,Premium Shorts,Clothing,128.64
+PROD_00107,Standard Tennis Racket,Sports,149.02
+PROD_00108,Standard Running Shoes,Sports,43.1
+PROD_00109,Deluxe Gaming Console,Electronics,1524.62
+PROD_00110,Standard Golf Club,Sports,380.36
+PROD_00111,Classic Self-Help,Books,21.57
+PROD_00112,Pro Cookbook,Books,46.0
+PROD_00113,Deluxe Bed Sheets,Home,71.33
+PROD_00114,Pro Art Book,Books,48.24
+PROD_00115,Elite Smartphone,Electronics,662.24
+PROD_00116,Premium Golf Club,Sports,713.51
+PROD_00117,Classic Wireless Speaker,Electronics,1225.74
+PROD_00118,Classic Football,Sports,665.7
+PROD_00119,Classic Science Book,Books,49.36
+PROD_00120,Classic Self-Help,Books,21.54
+PROD_00121,Deluxe Plant Pot,Home,481.15
+PROD_00122,Deluxe Poetry,Books,25.58
+PROD_00123,Deluxe Running Shoes,Sports,323.77
+PROD_00124,Deluxe Football,Sports,288.8
+PROD_00125,Pro Tablet,Electronics,1105.74
+PROD_00126,Deluxe Laptop,Electronics,350.58
+PROD_00127,Pro Dumbbells,Sports,454.13
+PROD_00128,Classic Poetry,Books,31.67
+PROD_00129,Deluxe Cookbook,Books,40.48
+PROD_00130,Elite Technical Manual,Books,43.35
+PROD_00131,Premium Fiction Novel,Books,27.62
+PROD_00132,Premium Lamp,Home,161.63
+PROD_00133,Classic Camera,Electronics,555.7
+PROD_00134,Deluxe Biography,Books,17.78
+PROD_00135,Deluxe Plant Pot,Home,42.96
+PROD_00136,Premium Plant Pot,Home,181.09
+PROD_00137,Deluxe Laptop,Electronics,576.98
+PROD_00138,Premium Boots,Clothing,290.6
+PROD_00139,Standard Poetry,Books,32.31
+PROD_00140,Classic Shorts,Clothing,117.24
+PROD_00141,Pro Smart Watch,Electronics,1181.91
+PROD_00142,Classic Camera,Electronics,321.43
+PROD_00143,Pro Jeans,Clothing,144.33
+PROD_00144,Standard Fitness Tracker,Sports,510.33
+PROD_00145,Classic Jacket,Clothing,156.89
+PROD_00146,Premium Shorts,Clothing,132.5
+PROD_00147,Elite Sweater,Clothing,298.28
+PROD_00148,Classic Sneakers,Clothing,266.49
+PROD_00149,Premium Gaming Console,Electronics,1265.64
+PROD_00150,Classic Kitchen Knife Set,Home,291.15
+PROD_00151,Pro Pillow,Home,316.02
+PROD_00152,Premium Jacket,Clothing,76.37
+PROD_00153,Pro Shorts,Clothing,130.64
+PROD_00154,Pro Science Book,Books,11.58
+PROD_00155,Elite Technical Manual,Books,29.02
+PROD_00156,Premium Water Bottle,Sports,445.84
+PROD_00157,Classic Smart Watch,Electronics,494.11
+PROD_00158,Premium Football,Sports,772.12
+PROD_00159,Elite Drone,Electronics,1823.44
+PROD_00160,Elite Mystery Novel,Books,38.89
+PROD_00161,Premium Swimming Goggles,Sports,438.37
+PROD_00162,Classic Candle,Home,436.94
+PROD_00163,Deluxe Fiction Novel,Books,15.23
+PROD_00164,Standard Coffee Maker,Home,398.4
+PROD_00165,Pro Tennis Racket,Sports,121.74
+PROD_00166,Deluxe Vacuum Cleaner,Home,400.19
+PROD_00167,Pro Poetry,Books,21.03
+PROD_00168,Standard Smart Watch,Electronics,1760.33
+PROD_00169,Pro History Book,Books,47.76
+PROD_00170,Standard Lamp,Home,87.17
+PROD_00171,Elite Jacket,Clothing,149.55
+PROD_00172,Standard Bed Sheets,Home,490.78
+PROD_00173,Elite Football,Sports,399.64
+PROD_00174,Pro Running Shoes,Sports,694.25
+PROD_00175,Elite Cookbook,Books,33.55
+PROD_00176,Deluxe Golf Club,Sports,315.88
+PROD_00177,Elite Art Book,Books,21.43
+PROD_00178,Standard Kitchen Knife Set,Home,113.56
+PROD_00179,Deluxe Bed Sheets,Home,384.47
+PROD_00180,Standard Smart Watch,Electronics,803.75
+PROD_00181,Premium Water Bottle,Sports,421.24
+PROD_00182,Classic Sneakers,Clothing,157.85
+PROD_00183,Premium Dress,Clothing,181.64
+PROD_00184,Elite Headphones,Electronics,1737.88
+PROD_00185,Elite Yoga Mat,Sports,785.07
+PROD_00186,Classic Candle,Home,212.68
+PROD_00187,Elite Storage Box,Home,416.35
+PROD_00188,Deluxe Dress,Clothing,234.07
+PROD_00189,Elite Laptop,Electronics,1168.38
+PROD_00190,Deluxe Dress,Clothing,287.69
+PROD_00191,Premium Bicycle,Sports,180.37
+PROD_00192,Premium Tennis Racket,Sports,109.68
+PROD_00193,Elite Bed Sheets,Home,429.17
+PROD_00194,Standard Swimming Goggles,Sports,365.34
+PROD_00195,Standard Art Book,Books,43.88
+PROD_00196,Standard Fitness Tracker,Sports,717.14
+PROD_00197,Deluxe Bed Sheets,Home,45.29
+PROD_00198,Pro Storage Box,Home,443.48
+PROD_00199,Standard Sneakers,Clothing,145.53
+PROD_00200,Pro Kitchen Knife Set,Home,262.56
+PROD_00201,Deluxe Vacuum Cleaner,Home,318.9
+PROD_00202,Pro Cookbook,Books,47.06
+PROD_00203,Standard Mystery Novel,Books,10.76
+PROD_00204,Classic Tablet,Electronics,979.84
+PROD_00205,Deluxe Shorts,Clothing,212.56
+PROD_00206,Premium Jacket,Clothing,222.36
+PROD_00207,Pro Curtains,Home,350.88
+PROD_00208,Elite Bicycle,Sports,129.19
+PROD_00209,Elite Headphones,Electronics,633.82
+PROD_00210,Deluxe Candle,Home,188.98
+PROD_00211,Elite Drone,Electronics,1618.65
+PROD_00212,Pro Coffee Maker,Home,150.2
+PROD_00213,Elite History Book,Books,18.43
+PROD_00214,Standard Swimming Goggles,Sports,767.02
+PROD_00215,Classic Blouse,Clothing,22.48
+PROD_00216,Elite History Book,Books,49.91
+PROD_00217,Pro Gaming Console,Electronics,1369.8
+PROD_00218,Elite Bed Sheets,Home,416.81
+PROD_00219,Standard Coat,Clothing,102.49
+PROD_00220,Standard Gaming Console,Electronics,77.91
+PROD_00221,Premium Running Shoes,Sports,596.85
+PROD_00222,Elite Bed Sheets,Home,419.56
+PROD_00223,Pro T-Shirt,Clothing,227.33
+PROD_00224,Classic Pillow,Home,84.28
+PROD_00225,Pro Pillow,Home,380.41
+PROD_00226,Elite Lamp,Home,387.93
+PROD_00227,Elite Science Book,Books,36.34
+PROD_00228,Premium Wireless Speaker,Electronics,1543.93
+PROD_00229,Deluxe Cookbook,Books,43.84
+PROD_00230,Premium Smartphone,Electronics,1246.53
+PROD_00231,Premium Jacket,Clothing,44.81
+PROD_00232,Classic Dumbbells,Sports,402.91
+PROD_00233,Deluxe Blouse,Clothing,41.74
+PROD_00234,Classic Drone,Electronics,844.71
+PROD_00235,Pro Lamp,Home,212.45
+PROD_00236,Standard Coat,Clothing,38.48
+PROD_00237,Pro Tablet,Electronics,730.2
+PROD_00238,Premium Drone,Electronics,266.45
+PROD_00239,Deluxe Poetry,Books,42.33
+PROD_00240,Deluxe Curtains,Home,474.63
+PROD_00241,Standard Jeans,Clothing,40.25
+PROD_00242,Deluxe Jeans,Clothing,287.43
+PROD_00243,Premium Poetry,Books,30.9
+PROD_00244,Pro Running Shoes,Sports,257.16
+PROD_00245,Deluxe Fitness Tracker,Sports,84.57
+PROD_00246,Standard Science Book,Books,30.02
+PROD_00247,Elite Fiction Novel,Books,41.78
+PROD_00248,Elite Vacuum Cleaner,Home,357.94
+PROD_00249,Deluxe Art Book,Books,12.01
+PROD_00250,Classic Shorts,Clothing,40.41
+PROD_00251,Standard Football,Sports,337.23
+PROD_00252,Elite Bicycle,Sports,253.85
+PROD_00253,Pro Candle,Home,127.71
+PROD_00254,Premium Cookbook,Books,21.24
+PROD_00255,Classic Art Book,Books,42.14
+PROD_00256,Standard Candle,Home,465.68
+PROD_00257,Premium Pillow,Home,211.47
+PROD_00258,Classic Pillow,Home,454.46
+PROD_00259,Pro Kitchen Knife Set,Home,170.93
+PROD_00260,Pro Mystery Novel,Books,29.06
+PROD_00261,Standard Football,Sports,200.17
+PROD_00262,Classic Wireless Speaker,Electronics,1298.93
+PROD_00263,Deluxe Headphones,Electronics,1959.01
+PROD_00264,Standard Storage Box,Home,307.69
+PROD_00265,Deluxe Blouse,Clothing,120.19
+PROD_00266,Premium Storage Box,Home,329.19
+PROD_00267,Classic Smart Watch,Electronics,289.7
+PROD_00268,Pro Kitchen Knife Set,Home,446.0
+PROD_00269,Elite Water Bottle,Sports,414.89
+PROD_00270,Pro Swimming Goggles,Sports,373.25
+PROD_00271,Pro Plant Pot,Home,299.14
+PROD_00272,Pro Art Book,Books,34.99
+PROD_00273,Classic Self-Help,Books,12.87
+PROD_00274,Pro Headphones,Electronics,1381.1
+PROD_00275,Deluxe Wireless Speaker,Electronics,521.77
+PROD_00276,Classic Jacket,Clothing,219.91
+PROD_00277,Deluxe Lamp,Home,413.93
+PROD_00278,Standard Swimming Goggles,Sports,648.07
+PROD_00279,Classic Science Book,Books,32.1
+PROD_00280,Pro Cookbook,Books,30.81
+PROD_00281,Premium Sneakers,Clothing,60.01
+PROD_00282,Pro Dumbbells,Sports,625.89
+PROD_00283,Standard Smartphone,Electronics,579.25
+PROD_00284,Deluxe Biography,Books,29.87
+PROD_00285,Premium Vacuum Cleaner,Home,152.87
+PROD_00286,Elite Football,Sports,128.72
+PROD_00287,Pro Storage Box,Home,320.34
+PROD_00288,Pro T-Shirt,Clothing,35.21
+PROD_00289,Premium Vacuum Cleaner,Home,378.09
+PROD_00290,Premium Storage Box,Home,169.03
+PROD_00291,Classic Running Shoes,Sports,25.1
+PROD_00292,Pro Coat,Clothing,163.12
+PROD_00293,Premium Headphones,Electronics,141.36
+PROD_00294,Standard Fitness Tracker,Sports,239.03
+PROD_00295,Classic Golf Club,Sports,572.91
+PROD_00296,Elite Fitness Tracker,Sports,73.58
+PROD_00297,Standard Lamp,Home,422.08
+PROD_00298,Standard Lamp,Home,16.85
+PROD_00299,Standard Running Shoes,Sports,216.29
+PROD_00300,Deluxe Headphones,Electronics,1494.76
+PROD_00301,Deluxe Sneakers,Clothing,108.56
+PROD_00302,Classic Tablet,Electronics,248.69
+PROD_00303,Premium Boots,Clothing,120.87
+PROD_00304,Elite T-Shirt,Clothing,95.71
+PROD_00305,Elite Candle,Home,423.72
+PROD_00306,Classic Fiction Novel,Books,22.53
+PROD_00307,Deluxe Self-Help,Books,41.56
+PROD_00308,Deluxe Vacuum Cleaner,Home,447.56
+PROD_00309,Deluxe Sneakers,Clothing,141.47
+PROD_00310,Elite Tennis Racket,Sports,730.21
+PROD_00311,Classic Wireless Speaker,Electronics,785.77
+PROD_00312,Classic Sneakers,Clothing,289.94
+PROD_00313,Classic Smartphone,Electronics,224.11
+PROD_00314,Deluxe Poetry,Books,37.48
+PROD_00315,Elite Football,Sports,407.71
+PROD_00316,Deluxe Smart TV,Electronics,805.92
+PROD_00317,Pro History Book,Books,35.31
+PROD_00318,Elite Swimming Goggles,Sports,570.49
+PROD_00319,Standard Vacuum Cleaner,Home,17.12
+PROD_00320,Deluxe Gaming Console,Electronics,375.56
+PROD_00321,Pro Poetry,Books,38.52
+PROD_00322,Classic Laptop,Electronics,1349.45
+PROD_00323,Premium Golf Club,Sports,773.69
+PROD_00324,Premium Poetry,Books,40.44
+PROD_00325,Standard Blouse,Clothing,286.22
+PROD_00326,Classic Lamp,Home,355.73
+PROD_00327,Deluxe Fitness Tracker,Sports,255.99
+PROD_00328,Elite Vacuum Cleaner,Home,66.1
+PROD_00329,Pro History Book,Books,41.27
+PROD_00330,Classic Science Book,Books,35.77
+PROD_00331,Deluxe History Book,Books,11.93
+PROD_00332,Deluxe Lamp,Home,189.62
+PROD_00333,Premium Plant Pot,Home,479.05
+PROD_00334,Pro Vacuum Cleaner,Home,257.69
+PROD_00335,Premium Mystery Novel,Books,27.31
+PROD_00336,Premium Plant Pot,Home,236.98
+PROD_00337,Elite Bicycle,Sports,186.88
+PROD_00338,Standard Headphones,Electronics,768.98
+PROD_00339,Elite Poetry,Books,24.79
+PROD_00340,Classic Coffee Maker,Home,40.39
+PROD_00341,Classic Technical Manual,Books,40.7
+PROD_00342,Deluxe Art Book,Books,26.66
+PROD_00343,Premium Vacuum Cleaner,Home,413.76
+PROD_00344,Deluxe Tennis Racket,Sports,684.02
+PROD_00345,Standard Sneakers,Clothing,79.36
+PROD_00346,Elite Wireless Speaker,Electronics,1331.84
+PROD_00347,Premium Headphones,Electronics,970.95
+PROD_00348,Deluxe Vacuum Cleaner,Home,441.88
+PROD_00349,Deluxe Blouse,Clothing,80.41
+PROD_00350,Deluxe Technical Manual,Books,37.11
+PROD_00351,Elite History Book,Books,34.31
+PROD_00352,Elite Kitchen Knife Set,Home,158.22
+PROD_00353,Elite Dumbbells,Sports,130.87
+PROD_00354,Standard Coat,Clothing,202.46
+PROD_00355,Pro Jeans,Clothing,226.81
+PROD_00356,Standard Pillow,Home,168.08
+PROD_00357,Pro Fiction Novel,Books,35.79
+PROD_00358,Standard Poetry,Books,25.81
+PROD_00359,Elite Bed Sheets,Home,360.91
+PROD_00360,Pro Bicycle,Sports,179.39
+PROD_00361,Standard Technical Manual,Books,45.61
+PROD_00362,Pro Storage Box,Home,154.39
+PROD_00363,Standard Jacket,Clothing,122.98
+PROD_00364,Elite Kitchen Knife Set,Home,43.17
+PROD_00365,Deluxe Camera,Electronics,267.45
+PROD_00366,Elite Curtains,Home,265.19
+PROD_00367,Premium Blouse,Clothing,94.93
+PROD_00368,Standard Boots,Clothing,253.93
+PROD_00369,Elite Science Book,Books,10.59
+PROD_00370,Elite Wireless Speaker,Electronics,789.23
+PROD_00371,Elite Tablet,Electronics,707.82
+PROD_00372,Elite Jeans,Clothing,25.41
+PROD_00373,Standard Mystery Novel,Books,14.97
+PROD_00374,Pro Vacuum Cleaner,Home,215.62
+PROD_00375,Pro Fitness Tracker,Sports,406.97
+PROD_00376,Premium Plant Pot,Home,211.08
+PROD_00377,Classic Yoga Mat,Sports,436.48
+PROD_00378,Deluxe Cookbook,Books,33.81
+PROD_00379,Premium Gaming Console,Electronics,69.35
+PROD_00380,Classic Smart TV,Electronics,954.99
+PROD_00381,Premium Fiction Novel,Books,48.54
+PROD_00382,Pro Fiction Novel,Books,30.76
+PROD_00383,Elite Mystery Novel,Books,37.1
+PROD_00384,Standard Jacket,Clothing,107.32
+PROD_00385,Deluxe Candle,Home,390.39
+PROD_00386,Classic Dress,Clothing,236.42
+PROD_00387,Elite Drone,Electronics,1066.53
+PROD_00388,Elite Tennis Racket,Sports,781.41
+PROD_00389,Classic Dumbbells,Sports,122.3
+PROD_00390,Elite Lamp,Home,23.22
+PROD_00391,Elite Fiction Novel,Books,40.81
+PROD_00392,Classic Technical Manual,Books,42.29
+PROD_00393,Pro Smart TV,Electronics,284.4
+PROD_00394,Deluxe Football,Sports,230.83
+PROD_00395,Elite Lamp,Home,23.51
+PROD_00396,Elite Cookbook,Books,21.73
+PROD_00397,Classic Vacuum Cleaner,Home,389.97
+PROD_00398,Pro Candle,Home,266.21
+PROD_00399,Deluxe Football,Sports,294.77
+PROD_00400,Deluxe Fiction Novel,Books,24.87
+PROD_00401,Premium Lamp,Home,15.66
+PROD_00402,Standard Running Shoes,Sports,257.35
+PROD_00403,Classic Lamp,Home,328.53
+PROD_00404,Classic Water Bottle,Sports,780.0
+PROD_00405,Pro Coat,Clothing,257.18
+PROD_00406,Deluxe Jeans,Clothing,26.61
+PROD_00407,Elite Smart Watch,Electronics,1802.19
+PROD_00408,Pro Drone,Electronics,1577.24
+PROD_00409,Pro Jeans,Clothing,238.51
+PROD_00410,Classic History Book,Books,28.32
+PROD_00411,Standard Dress,Clothing,131.44
+PROD_00412,Standard Technical Manual,Books,22.12
+PROD_00413,Pro Biography,Books,12.63
+PROD_00414,Deluxe Lamp,Home,125.69
+PROD_00415,Elite Science Book,Books,19.86
+PROD_00416,Classic Tablet,Electronics,993.95
+PROD_00417,Pro Plant Pot,Home,377.51
+PROD_00418,Premium Gaming Console,Electronics,973.93
+PROD_00419,Premium Technical Manual,Books,12.31
+PROD_00420,Deluxe Pillow,Home,479.53
+PROD_00421,Elite Poetry,Books,47.71
+PROD_00422,Deluxe Science Book,Books,41.41
+PROD_00423,Premium Blouse,Clothing,297.57
+PROD_00424,Pro Swimming Goggles,Sports,446.97
+PROD_00425,Deluxe Tennis Racket,Sports,771.15
+PROD_00426,Deluxe Smart TV,Electronics,197.43
+PROD_00427,Premium History Book,Books,24.63
+PROD_00428,Premium T-Shirt,Clothing,83.11
+PROD_00429,Premium Art Book,Books,17.83
+PROD_00430,Standard Headphones,Electronics,324.57
+PROD_00431,Elite Shorts,Clothing,194.28
+PROD_00432,Elite Technical Manual,Books,41.25
+PROD_00433,Elite Dumbbells,Sports,473.18
+PROD_00434,Standard Smart TV,Electronics,336.58
+PROD_00435,Premium Lamp,Home,408.4
+PROD_00436,Elite Cookbook,Books,35.44
+PROD_00437,Pro Kitchen Knife Set,Home,203.26
+PROD_00438,Standard Camera,Electronics,1364.55
+PROD_00439,Elite Fiction Novel,Books,20.4
+PROD_00440,Premium Cookbook,Books,23.81
+PROD_00441,Deluxe Vacuum Cleaner,Home,459.98
+PROD_00442,Premium Coat,Clothing,101.34
+PROD_00443,Classic Camera,Electronics,966.48
+PROD_00444,Classic Coat,Clothing,269.24
+PROD_00445,Classic Wireless Speaker,Electronics,1430.06
+PROD_00446,Classic Tennis Racket,Sports,73.21
+PROD_00447,Standard Biography,Books,15.89
+PROD_00448,Classic Smart Watch,Electronics,65.29
+PROD_00449,Pro Boots,Clothing,196.66
+PROD_00450,Deluxe Jeans,Clothing,145.35
+PROD_00451,Premium Tablet,Electronics,311.84
+PROD_00452,Standard Cookbook,Books,48.32
+PROD_00453,Classic Fiction Novel,Books,31.19
+PROD_00454,Classic Fiction Novel,Books,19.68
+PROD_00455,Premium Plant Pot,Home,257.79
+PROD_00456,Elite Smart TV,Electronics,1375.26
+PROD_00457,Standard Technical Manual,Books,13.05
+PROD_00458,Standard Smart TV,Electronics,585.67
+PROD_00459,Premium Coat,Clothing,245.95
+PROD_00460,Elite Football,Sports,381.24
+PROD_00461,Elite Smartphone,Electronics,1115.83
+PROD_00462,Deluxe Curtains,Home,224.92
+PROD_00463,Deluxe Smart TV,Electronics,135.6
+PROD_00464,Premium Vacuum Cleaner,Home,95.39
+PROD_00465,Classic Poetry,Books,27.82
+PROD_00466,Pro Tablet,Electronics,457.91
+PROD_00467,Standard Golf Club,Sports,63.73
+PROD_00468,Standard History Book,Books,43.75
+PROD_00469,Elite Football,Sports,785.42
+PROD_00470,Elite Golf Club,Sports,639.69
+PROD_00471,Deluxe Laptop,Electronics,1714.88
+PROD_00472,Elite Tennis Racket,Sports,212.53
+PROD_00473,Elite Kitchen Knife Set,Home,480.9
+PROD_00474,Elite Art Book,Books,17.88
+PROD_00475,Pro Vacuum Cleaner,Home,476.44
+PROD_00476,Deluxe Pillow,Home,497.49
+PROD_00477,Classic Mystery Novel,Books,38.47
+PROD_00478,Premium Vacuum Cleaner,Home,490.85
+PROD_00479,Elite Laptop,Electronics,1160.6
+PROD_00480,Classic Camera,Electronics,556.11
+PROD_00481,Standard Running Shoes,Sports,363.67
+PROD_00482,Pro Swimming Goggles,Sports,485.01
+PROD_00483,Pro Gaming Console,Electronics,192.51
+PROD_00484,Pro Coffee Maker,Home,316.84
+PROD_00485,Pro Football,Sports,785.41
+PROD_00486,Standard Drone,Electronics,420.71
+PROD_00487,Deluxe Dress,Clothing,241.93
+PROD_00488,Premium Kitchen Knife Set,Home,455.33
+PROD_00489,Pro Technical Manual,Books,47.75
+PROD_00490,Standard Smart Watch,Electronics,1922.26
+PROD_00491,Standard Shorts,Clothing,166.01
+PROD_00492,Deluxe Golf Club,Sports,782.41
+PROD_00493,Standard Running Shoes,Sports,611.92
+PROD_00494,Classic Fiction Novel,Books,16.47
+PROD_00495,Pro Self-Help,Books,29.08
+PROD_00496,Classic Fiction Novel,Books,38.73
+PROD_00497,Deluxe Coat,Clothing,89.26
+PROD_00498,Classic Vacuum Cleaner,Home,325.7
+PROD_00499,Deluxe Laptop,Electronics,1349.87
+PROD_00500,Elite Tennis Racket,Sports,151.09
