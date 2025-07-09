@@ -3,14 +3,25 @@
 Customer Analytics & Recommendation System - Main Workflow Orchestrator
 
 This comprehensive pipeline orchestrates all components of the customer analytics system:
-- Data loading and validation
-- Complete pipeline execution (RFM, clustering, recommendations)
-- Results organization and reporting
-- User interface and progress tracking
-- Final validation and documentation generation
+- Data loading and validation with integrity checks
+- Complete pipeline execution (RFM analysis, clustering, recommendations)
+- Results organization and systematic reporting
+- User interface with progress tracking
+- Final validation and auto-documentation generation
+
+Features:
+    * Enterprise-grade data processing and validation
+    * Advanced RFM customer segmentation
+    * K-means clustering with silhouette analysis
+    * Hybrid recommendation engine (collaborative + content-based + temporal)
+    * Professional visualization suite with interactive charts
+    * Comprehensive business intelligence reporting
+    * Command-line interface with multiple operation modes
+    * Automated documentation and README generation
 
 Author: Data Science Portfolio Project
 Version: 2.0 - Advanced Analytics Pipeline
+License: MIT
 """
 
 import os
@@ -20,9 +31,9 @@ import argparse
 import logging
 from datetime import datetime
 from pathlib import Path
+from typing import Dict, List, Tuple, Any, Optional, Union
 import pandas as pd
 import numpy as np
-from typing import Dict, List, Tuple, Any, Optional
 
 # Import all system components
 try:
@@ -36,10 +47,42 @@ except ImportError as e:
     print("Please ensure all required files are in the current directory")
     sys.exit(1)
 
+
 class CustomerAnalyticsPipeline:
-    """Comprehensive customer analytics pipeline orchestrator"""
+    """
+    Comprehensive customer analytics pipeline orchestrator.
     
-    def __init__(self, base_dir: str = "."):
+    This class provides a complete end-to-end customer analytics workflow including
+    data generation, RFM analysis, clustering, recommendations, and reporting.
+    
+    Attributes:
+        base_dir (Path): Base directory for all project files
+        data_dir (Path): Directory containing CSV data files
+        results_dir (Path): Directory for analysis results
+        reports_dir (Path): Directory for generated reports
+        visualizations_dir (Path): Directory for charts and visualizations
+        pipeline_state (Dict[str, bool]): Current state of pipeline execution
+        results (Dict[str, Any]): Storage for analysis results
+        logger (logging.Logger): Configured logger instance
+        
+    Example:
+        >>> pipeline = CustomerAnalyticsPipeline("/path/to/project")
+        >>> success = pipeline.run_complete_pipeline()
+        >>> if success:
+        ...     print("Pipeline completed successfully!")
+    """
+    
+    def __init__(self, base_dir: str = ".") -> None:
+        """
+        Initialize the customer analytics pipeline.
+        
+        Args:
+            base_dir (str): Base directory for the project. Defaults to current directory.
+        
+        Raises:
+            OSError: If directory creation fails
+            Exception: If logging setup fails
+        """
         self.base_dir = Path(base_dir)
         self.data_dir = self.base_dir / "data"
         self.results_dir = self.base_dir / "results"
@@ -53,15 +96,15 @@ class CustomerAnalyticsPipeline:
         # Setup logging
         self.setup_logging()
         
-        # Initialize components
-        self.data_generator = None
-        self.segmentation = None
-        self.recommendation_engine = None
-        self.visualization_generator = None
-        self.rfm_visualizer = None
+        # Initialize components (lazy loading)
+        self.data_generator: Optional[DataGenerator] = None
+        self.segmentation: Optional[CustomerSegmentation] = None
+        self.recommendation_engine: Optional[AdvancedRecommendationEngine] = None
+        self.visualization_generator: Optional[VisualizationGenerator] = None
+        self.rfm_visualizer: Optional[RFMVisualizationGenerator] = None
         
-        # Pipeline state
-        self.pipeline_state = {
+        # Pipeline state tracking
+        self.pipeline_state: Dict[str, bool] = {
             'data_loaded': False,
             'rfm_complete': False,
             'clustering_complete': False,
@@ -71,12 +114,26 @@ class CustomerAnalyticsPipeline:
         }
         
         # Results storage
-        self.results = {}
+        self.results: Dict[str, Any] = {}
+        
+        # Data storage
+        self.customers_df: Optional[pd.DataFrame] = None
+        self.products_df: Optional[pd.DataFrame] = None
+        self.transactions_df: Optional[pd.DataFrame] = None
         
         self.logger.info("🚀 Customer Analytics Pipeline initialized")
 
-    def setup_logging(self):
-        """Setup comprehensive logging"""
+    def setup_logging(self) -> None:
+        """
+        Setup comprehensive logging with file and console handlers.
+        
+        Creates a timestamped log file in the logs directory and configures
+        both file and console output with appropriate formatting.
+        
+        Raises:
+            OSError: If log directory creation fails
+            ValueError: If logging configuration is invalid
+        """
         log_dir = self.base_dir / "logs"
         log_dir.mkdir(exist_ok=True)
         
@@ -94,7 +151,21 @@ class CustomerAnalyticsPipeline:
         self.logger = logging.getLogger(__name__)
 
     def validate_data_files(self) -> Dict[str, bool]:
-        """Validate existence and integrity of data files"""
+        """
+        Validate existence and basic integrity of required data files.
+        
+        Checks for the presence of customers.csv, products.csv, and transactions.csv
+        files and performs basic validation including row/column counts.
+        
+        Returns:
+            Dict[str, bool]: Dictionary mapping filename to validation status
+            
+        Example:
+            >>> pipeline = CustomerAnalyticsPipeline()
+            >>> status = pipeline.validate_data_files()
+            >>> print(status)
+            {'customers.csv': True, 'products.csv': True, 'transactions.csv': False}
+        """
         self.logger.info("📋 VALIDATING DATA FILES")
         print("-" * 40)
         
@@ -104,8 +175,7 @@ class CustomerAnalyticsPipeline:
             'transactions.csv': self.data_dir / "transactions.csv"
         }
         
-        file_status = {}
-        all_exist = True
+        file_status: Dict[str, bool] = {}
         
         for name, path in required_files.items():
             exists = path.exists()
@@ -122,15 +192,38 @@ class CustomerAnalyticsPipeline:
                     print(f"❌ {name}: Error reading file - {e}")
                     self.logger.error(f"Error reading {name}: {e}")
                     file_status[name] = False
-                    all_exist = False
             else:
                 print(f"⚠️  {name}: File not found")
-                all_exist = False
         
         return file_status
 
     def load_and_validate_data(self, force_regenerate: bool = False) -> bool:
-        """Load and validate all data with comprehensive checks"""
+        """
+        Load and validate all data with comprehensive integrity checks.
+        
+        Loads customer, product, and transaction data from CSV files and performs
+        comprehensive validation including schema checks, referential integrity,
+        and data quality assessments.
+        
+        Args:
+            force_regenerate (bool): Whether to force regeneration of data files
+                even if they exist. Defaults to False.
+        
+        Returns:
+            bool: True if data loading and validation successful, False otherwise
+            
+        Raises:
+            FileNotFoundError: If required data files are missing and generation fails
+            pd.errors.ParserError: If CSV files are malformed
+            ValueError: If data validation fails
+            
+        Example:
+            >>> pipeline = CustomerAnalyticsPipeline()
+            >>> if pipeline.load_and_validate_data():
+            ...     print("Data loaded successfully")
+            ... else:
+            ...     print("Data loading failed")
+        """
         self.logger.info("📊 DATA LOADING AND VALIDATION")
         print("=" * 50)
         
@@ -149,8 +242,12 @@ class CustomerAnalyticsPipeline:
             self.products_df = pd.read_csv(self.data_dir / "products.csv")
             self.transactions_df = pd.read_csv(self.data_dir / "transactions.csv")
             
-            # Convert date columns
-            self.transactions_df['purchase_date'] = pd.to_datetime(self.transactions_df['purchase_date'])
+            # Convert date columns with error handling
+            try:
+                self.transactions_df['purchase_date'] = pd.to_datetime(self.transactions_df['purchase_date'])
+            except (ValueError, TypeError) as e:
+                self.logger.error(f"Error converting purchase_date to datetime: {e}")
+                return False
             
             # Data integrity validation
             validation_results = self.validate_data_integrity()
@@ -165,6 +262,8 @@ class CustomerAnalyticsPipeline:
                 return True
             else:
                 print("❌ Data validation failed")
+                for issue in validation_results['issues']:
+                    print(f"   • {issue}")
                 self.logger.error("Data validation failed")
                 return False
                 
@@ -174,8 +273,31 @@ class CustomerAnalyticsPipeline:
             return False
 
     def validate_data_integrity(self) -> Dict[str, Any]:
-        """Comprehensive data integrity validation"""
-        validation = {'valid': True, 'issues': []}
+        """
+        Perform comprehensive data integrity validation.
+        
+        Validates schema compliance, referential integrity, data types,
+        and business rule constraints across all datasets.
+        
+        Returns:
+            Dict[str, Any]: Validation results containing:
+                - valid (bool): Overall validation status
+                - issues (List[str]): List of validation issues found
+                - summary (Dict[str, Any]): Validation summary statistics
+                
+        Example:
+            >>> pipeline = CustomerAnalyticsPipeline()
+            >>> pipeline.load_data()
+            >>> results = pipeline.validate_data_integrity()
+            >>> if results['valid']:
+            ...     print("All validation checks passed")
+        """
+        validation: Dict[str, Any] = {'valid': True, 'issues': [], 'summary': {}}
+        
+        if self.customers_df is None or self.products_df is None or self.transactions_df is None:
+            validation['issues'].append("Data not loaded - call load_and_validate_data() first")
+            validation['valid'] = False
+            return validation
         
         try:
             # Check for required columns
@@ -191,6 +313,7 @@ class CustomerAnalyticsPipeline:
                 'transactions': self.transactions_df
             }
             
+            # Schema validation
             for dataset_name, required_cols in required_columns.items():
                 df = datasets[dataset_name]
                 missing_cols = set(required_cols) - set(df.columns)
