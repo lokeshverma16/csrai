@@ -1,0 +1,83 @@
+# Data Configuration
+# Customer Analytics & Recommendation System
+
+# Input Data Paths
+data_sources:
+  customers_file: "data/customers.csv"
+  products_file: "data/products.csv"
+  transactions_file: "data/transactions.csv"
+  segmentation_results_file: "data/customer_segmentation_results.csv"
+
+# Output Data Paths
+output_paths:
+  results_dir: "results/"
+  reports_dir: "reports/"
+  visualizations_dir: "visualizations/"
+  logs_dir: "logs/"
+  
+  # Specific output files
+  cluster_analysis: "results/cluster_analysis.csv"
+  recommendations: "results/recommendations.csv"
+  recommendations_detailed: "results/recommendations_detailed.json"
+  rfm_results: "results/customer_segmentation_results.csv"
+
+# Data Generation Settings (for synthetic data)
+data_generation:
+  customers:
+    count: 1000
+    start_date: "2020-01-01"
+    end_date: "2024-12-31"
+    
+  products:
+    count: 500
+    categories: ["Electronics", "Clothing", "Books", "Home & Garden", "Sports", "Beauty", "Food"]
+    price_range:
+      min: 10.0
+      max: 1000.0
+      
+  transactions:
+    count: 10000
+    date_range:
+      start: "2022-01-01"
+      end: "2024-12-31"
+    seasonal_patterns: true
+    purchase_probability:
+      Champions: 0.8
+      Loyal: 0.6
+      At_Risk: 0.3
+      New: 0.4
+      Lost: 0.1
+
+# Data Validation Settings
+validation:
+  required_columns:
+    customers: ["customer_id", "name", "email", "registration_date"]
+    products: ["product_id", "product_name", "category", "price"]
+    transactions: ["transaction_id", "customer_id", "product_id", "purchase_date", "price"]
+    
+  data_types:
+    customer_id: "int64"
+    product_id: "int64"
+    price: "float64"
+    purchase_date: "datetime64"
+    
+  constraints:
+    price_min: 0.01
+    date_format: "%Y-%m-%d"
+    max_null_percentage: 0.05  # 5% max null values allowed
+
+# File Format Settings
+file_formats:
+  csv:
+    encoding: "utf-8"
+    separator: ","
+    decimal: "."
+    date_format: "%Y-%m-%d"
+    
+  json:
+    ensure_ascii: false
+    indent: 2
+    
+  excel:
+    engine: "openpyxl"
+    date_format: "YYYY-MM-DD" 

@@ -37,11 +37,13 @@ import numpy as np
 
 # Import all system components
 try:
-    from data_generator import DataGenerator
-    from customer_segmentation import CustomerSegmentation
-    from advanced_recommendation_engine import AdvancedRecommendationEngine
-    from visualizations import ComprehensiveRFMVisualization as VisualizationGenerator
-    from rfm_visualizations import ComprehensiveRFMVisualization as RFMVisualizationGenerator
+    from src.utils.data_generator import DataGenerator
+    from src.models.customer_segmentation import CustomerSegmentation
+    from src.engines.advanced_recommendation_engine import AdvancedRecommendationEngine
+    from src.utils.visualizations import ComprehensiveRFMVisualization as VisualizationGenerator
+    from src.utils.rfm_visualizations import ComprehensiveRFMVisualization as RFMVisualizationGenerator
+    from config.settings import *
+    from config.logging_config import setup_logging, get_logger
 except ImportError as e:
     print(f"❌ Error importing modules: {e}")
     print("Please ensure all required files are in the current directory")
@@ -127,28 +129,18 @@ class CustomerAnalyticsPipeline:
         """
         Setup comprehensive logging with file and console handlers.
         
-        Creates a timestamped log file in the logs directory and configures
-        both file and console output with appropriate formatting.
+        Uses the centralized logging configuration from config.logging_config.
         
         Raises:
             OSError: If log directory creation fails
             ValueError: If logging configuration is invalid
         """
-        log_dir = self.base_dir / "logs"
-        log_dir.mkdir(exist_ok=True)
-        
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        log_file = log_dir / f"pipeline_{timestamp}.log"
-        
-        logging.basicConfig(
-            level=logging.INFO,
-            format='%(asctime)s - %(levelname)s - %(message)s',
-            handlers=[
-                logging.FileHandler(log_file),
-                logging.StreamHandler(sys.stdout)
-            ]
+        # Use centralized logging configuration
+        self.logger = setup_logging(
+            log_level="INFO",
+            log_to_file=True,
+            log_to_console=True
         )
-        self.logger = logging.getLogger(__name__)
 
     def validate_data_files(self) -> Dict[str, bool]:
         """

@@ -31,9 +31,9 @@ warnings.filterwarnings('ignore')
 
 # Import system components
 try:
-    from data_generator import DataGenerator
-    from customer_segmentation import CustomerSegmentation
-    from advanced_recommendation_engine import AdvancedRecommendationEngine
+    from src.utils.data_generator import DataGenerator
+    from src.models.customer_segmentation import CustomerSegmentation
+    from src.engines.advanced_recommendation_engine import AdvancedRecommendationEngine
     from main import CustomerAnalyticsPipeline
 except ImportError as e:
     print(f"❌ Error importing modules: {e}")

@@ -1,0 +1,62 @@
+# Model Configuration
+# Customer Analytics & Recommendation System
+
+# RFM Analysis Configuration
+rfm:
+  scoring_method: "quintile"  # quintile, quartile, custom
+  outlier_detection: true
+  outlier_method: "iqr"  # iqr, zscore, isolation_forest
+  outlier_threshold: 1.5
+
+# K-means Clustering Configuration
+clustering:
+  features: ["recency", "frequency", "monetary"]
+  max_clusters: 10
+  min_clusters: 2
+  selection_method: "silhouette"  # silhouette, elbow, both
+  random_state: 42
+  n_init: 10
+  max_iter: 300
+  
+# Recommendation Engine Configuration
+recommendations:
+  n_recommendations: 3
+  min_confidence: 0.1
+  weights:
+    collaborative_filtering: 0.30
+    content_based: 0.25
+    cross_selling: 0.20
+    temporal: 0.15
+    price_affinity: 0.10
+  
+  # Business Rules
+  business_rules:
+    diversity_weight: 0.3
+    popularity_boost: 0.2
+    seasonal_adjustment: 0.1
+    price_sensitivity_threshold: 0.15
+    
+  # Segment-specific configurations
+  segment_weights:
+    Champions:
+      collaborative_filtering: 0.30
+      content_based: 0.70
+    Loyal:
+      collaborative_filtering: 0.40
+      content_based: 0.60
+    At_Risk:
+      collaborative_filtering: 0.60
+      content_based: 0.40
+    New:
+      collaborative_filtering: 0.70
+      content_based: 0.30
+    Lost:
+      collaborative_filtering: 0.80
+      content_based: 0.20
+
+# Performance Settings
+performance:
+  batch_size: 1000
+  n_jobs: -1  # Use all available cores
+  memory_limit_gb: 8
+  chunk_size: 10000 
