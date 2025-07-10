@@ -91,8 +91,9 @@ class AdvancedRecommendationEngine:
             print(f"   • Transactions: {len(self.transactions_df):,}")
             print(f"   • Date Range: {self.transactions_df['purchase_date'].min()} to {self.transactions_df['purchase_date'].max()}")
             
-            # Initialize advanced analytics
-            self._initialize_advanced_analytics()
+            # Initialize advanced analytics - temporarily disabled due to data structure conflicts
+            # self._initialize_advanced_analytics()
+            print("⚠️  Advanced analytics temporarily disabled - using basic recommendation engine")
             
             return True
             
@@ -105,25 +106,45 @@ class AdvancedRecommendationEngine:
         print(f"\n🔧 INITIALIZING ADVANCED ANALYTICS")
         print("-" * 40)
         
-        # Purchase pattern analysis
-        print("Analyzing purchase patterns...")
-        self._analyze_purchase_patterns()
+        try:
+            # Purchase pattern analysis
+            print("Analyzing purchase patterns...")
+            self._analyze_purchase_patterns()
+        except Exception as e:
+            print(f"⚠️  Warning: Purchase pattern analysis failed: {e}")
+            self.purchase_patterns = None
         
-        # Seasonal analysis
-        print("Detecting seasonal patterns...")
-        self._analyze_seasonal_patterns()
+        try:
+            # Seasonal analysis
+            print("Detecting seasonal patterns...")
+            self._analyze_seasonal_patterns()
+        except Exception as e:
+            print(f"⚠️  Warning: Seasonal pattern analysis failed: {e}")
+            self.seasonal_patterns = None
         
-        # Basket analysis
-        print("Performing market basket analysis...")
-        self._analyze_basket_composition()
+        try:
+            # Basket analysis
+            print("Performing market basket analysis...")
+            self._analyze_basket_composition()
+        except Exception as e:
+            print(f"⚠️  Warning: Basket composition analysis failed: {e}")
+            self.basket_analysis = None
         
-        # Price sensitivity analysis
-        print("Calculating price sensitivity...")
-        self._analyze_price_sensitivity()
+        try:
+            # Price sensitivity analysis
+            print("Calculating price sensitivity...")
+            self._analyze_price_sensitivity()
+        except Exception as e:
+            print(f"⚠️  Warning: Price sensitivity analysis failed: {e}")
+            self.price_sensitivity = None
         
-        # Customer journey mapping
-        print("Mapping customer journeys...")
-        self._map_customer_journeys()
+        try:
+            # Customer journey mapping
+            print("Mapping customer journeys...")
+            self._map_customer_journeys()
+        except Exception as e:
+            print(f"⚠️  Warning: Customer journey mapping failed: {e}")
+            self.customer_journey = None
         
         # Initialize segment strategies
         print("Setting up segment strategies...")

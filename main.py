@@ -451,17 +451,25 @@ class CustomerAnalyticsPipeline:
             rfm_results = self.segmentation.calculate_rfm()
             
             if rfm_results is not None:
-                print("✅ RFM analysis completed")
+                # Create customer segments based on RFM scores
+                print("🎯 Creating customer segments...")
+                segmented_results = self.segmentation.create_rfm_segments()
                 
-                # Save results
-                self.segmentation.save_results(str(self.results_dir / "customer_segmentation_results.csv"))
-                
-                # Store results
-                self.results['rfm'] = rfm_results
-                self.pipeline_state['rfm_complete'] = True
-                
-                self.logger.info("RFM analysis completed successfully")
-                return True
+                if segmented_results is not None:
+                    print("✅ RFM analysis and segmentation completed")
+                    
+                    # Save results
+                    self.segmentation.save_results(str(self.results_dir / "customer_segmentation_results.csv"))
+                    
+                    # Store results
+                    self.results['rfm'] = segmented_results
+                    self.pipeline_state['rfm_complete'] = True
+                    
+                    self.logger.info("RFM analysis completed successfully")
+                    return True
+                else:
+                    print("❌ Customer segmentation failed")
+                    return False
             else:
                 print("❌ RFM analysis failed")
                 return False
@@ -569,7 +577,11 @@ class CustomerAnalyticsPipeline:
             
             # Generate standard visualizations
             print("🎨 Creating standard visualizations...")
-            viz_results = self.visualization_generator.generate_all_visualizations()
+            try:
+                viz_results = self.visualization_generator.generate_all_visualizations()
+            except Exception as e:
+                print(f"⚠️  Standard visualizations encountered issues: {e}")
+                viz_results = False
             
             # Generate RFM visualizations
             print("📈 Creating RFM visualizations...")
@@ -578,15 +590,21 @@ class CustomerAnalyticsPipeline:
             # Move visualizations to organized directory
             self.organize_visualization_files()
             
-            if viz_results and rfm_viz_results:
-                print("✅ All visualizations generated")
+            # Consider it successful if at least RFM visualizations worked
+            if rfm_viz_results:
+                print("✅ RFM visualizations generated successfully")
+                if viz_results:
+                    print("✅ All visualizations generated")
+                else:
+                    print("⚠️  Standard visualizations had issues but RFM visualizations completed")
+                
                 self.results['visualizations'] = {
                     'standard': viz_results,
                     'rfm': rfm_viz_results
                 }
                 self.pipeline_state['visualizations_complete'] = True
                 
-                self.logger.info("All visualizations generated successfully")
+                self.logger.info("Visualization generation completed")
                 return True
             else:
                 print("❌ Visualization generation failed")

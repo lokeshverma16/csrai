@@ -496,17 +496,23 @@ class ComprehensiveRFMVisualization:
         print("GENERATING COMPREHENSIVE RFM VISUALIZATIONS")
         print("="*70)
         
-        # Generate all visualization sets
-        self.plot_rfm_distributions()
-        self.plot_rfm_correlation_analysis() 
-        self.plot_customer_behavior_analysis()
-        self.plot_outlier_analysis()
-        self.plot_business_insights()
-        
-        print("\n" + "="*70)
-        print("✅ ALL VISUALIZATIONS GENERATED SUCCESSFULLY!")
-        print("📁 Check the 'visualizations/' directory for all PNG files")
-        print("="*70)
+        try:
+            # Generate all visualization sets
+            self.plot_rfm_distributions()
+            self.plot_rfm_correlation_analysis() 
+            self.plot_customer_behavior_analysis()
+            self.plot_outlier_analysis()
+            self.plot_business_insights()
+            
+            print("\n" + "="*70)
+            print("✅ ALL VISUALIZATIONS GENERATED SUCCESSFULLY!")
+            print("📁 Check the 'visualizations/' directory for all PNG files")
+            print("="*70)
+            return True
+            
+        except Exception as e:
+            print(f"❌ Error generating RFM visualizations: {e}")
+            return False
 
 # Demonstration function
 def demonstrate_rfm_visualizations():

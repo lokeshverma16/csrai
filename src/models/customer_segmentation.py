@@ -68,6 +68,7 @@ class CustomerSegmentation:
             )
             
             # Calculate transaction value (quantity × price)
+            # Use the actual transaction price, not the product's listed price
             self.enriched_transactions['transaction_value'] = (
                 self.enriched_transactions['quantity'] * 
                 self.enriched_transactions['price_transaction']
